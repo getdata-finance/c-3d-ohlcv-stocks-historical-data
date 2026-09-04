@@ -1,6 +1,6 @@
 # C 3d OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_801_rows-blue)](https://getdata.finance/datasets/c) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/c)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-649_rows-blue)](https://getdata.finance/datasets/c) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/c)
 
 ### -> [**Download the full C dataset on getdata.finance**](https://getdata.finance/datasets/c)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 3d OHLCV** for **Citigroup** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/c) · **1,801** `3d` rows in the full archive
+- **Free evaluation sample** on GitHub (`3d`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/c) · **649** `3d` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3d` sample updated in sync
 
-> **Sample on GitHub** · `C_3d.csv` (68 rows, `2026-02-09` -> `2026-09-01`, 4.10 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/c)** — **1,801** `3d` rows (full `1m`: 526,800), **11 timeframes**, `2010-01-04` -> `2026-09-01`.
+> **Sample on GitHub** · `C_3d.csv` (244 rows, `2024-08-21` -> `2026-09-01`, 24.27 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/c)** — **649** `3d` rows (full `1m`: 526,299), **11 timeframes**, `2021-04-06` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Citigroup · US stocks | Citigroup · US stocks |
 | Timeframes | `3d` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 3d rows | 68 | **1,801** |
-| Size | 4.10 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/c) |
-| Period | `2026-02-09` -> `2026-09-01` | `2010-01-04` -> `2026-09-01` |
+| 3d rows | 244 | **649** |
+| Size | 24.27 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/c) |
+| Period | `2024-08-21` -> `2026-09-01` | `2021-04-06` -> `2026-09-01` |
 | File | `C_3d.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/c) |
 | Coverage report | — | [C coverage](https://getdata.finance/coverage/c) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`C_3d.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-09T00:00:00+00:00 | 122.59 | 125.03 | 117.21 | 117.24 | 74754 |
-| 2026-02-12T00:00:00+00:00 | 117.24 | 118.97 | 108.26 | 110.69 | 122993 |
-| 2026-02-15T00:00:00+00:00 | 110.69 | 114.31 | 110.69 | 113.73 | 26865 |
-| 2026-02-18T00:00:00+00:00 | 113.73 | 116.89 | 113.71 | 115.88 | 124671 |
-| 2026-02-21T00:00:00+00:00 | 115.88 | 116.76 | 108.71 | 110.66 | 25140 |
+| 2024-08-21T00:00:00+00:00 | 61.26 | 62.4 | 59.82 | 62.07 | 66512 |
+| 2024-08-24T00:00:00+00:00 | 62.07 | 62.53 | 61.51 | 61.73 | 15897 |
+| 2024-08-27T00:00:00+00:00 | 61.73 | 62.17 | 61.03 | 61.82 | 55621 |
+| 2024-08-30T00:00:00+00:00 | 61.82 | 62.65 | 61.59 | 62.57 | 21345 |
+| 2024-09-02T00:00:00+00:00 | 62.57 | 62.57 | 60.34 | 60.89 | 53055 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-20T00:00:00+00:00 | 132.81 | 132.92 | 129.46 | 131.59 | 28334 |
-| 2026-08-23T00:00:00+00:00 | 131.59 | 133.14 | 130.88 | 133.04 | 24338 |
-| 2026-08-26T00:00:00+00:00 | 133.09 | 133.79 | 131.64 | 132.71 | 29486 |
-| 2026-08-29T00:00:00+00:00 | 132.71 | 132.71 | 131.2 | 131.54 | 11139 |
-| 2026-09-01T00:00:00+00:00 | 131.54 | 134.47 | 129.91 | 132.41 | 16438 |
+| 2026-08-20T00:00:00+00:00 | 138.99 | 139.1 | 135.64 | 137.77 | 28292 |
+| 2026-08-23T00:00:00+00:00 | 137.77 | 139.75 | 137.06 | 139.28 | 26952 |
+| 2026-08-26T00:00:00+00:00 | 139.28 | 139.98 | 137.83 | 138.9 | 43781 |
+| 2026-08-29T00:00:00+00:00 | 138.9 | 138.9 | 137.39 | 137.73 | 11069 |
+| 2026-09-01T00:00:00+00:00 | 137.73 | 140.66 | 136.1 | 138.6 | 16388 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **C** archive on **[getdata.finance](https://getdata.finance/datasets/c)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **1,801** rows at `3d`, plus all other timeframes in the same ZIP.
+The complete **C** archive on **[getdata.finance](https://getdata.finance/datasets/c)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **649** rows at `3d`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full C dataset on getdata.finance](https://getdata.finance/datasets/c)**
 
